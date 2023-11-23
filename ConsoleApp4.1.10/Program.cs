@@ -4,8 +4,8 @@
     {
         static void Main(string[] args)
         {
-            var Inv = true;
-            var Res = !Inv;
+            bool Inv = false;
+            bool Res = !Inv;
             
             Console.WriteLine(Res);
             Console.ReadKey();
