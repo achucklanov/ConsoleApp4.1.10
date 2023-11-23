@@ -4,10 +4,12 @@
     {
         static void Main(string[] args)
         {
-            bool Inv = false;
-            bool Res = !Inv;
+            bool Inv = true;
+            bool Res1 = !Inv;
+            bool Res2 = !Res1;
             
-            Console.WriteLine(Res);
+            Console.WriteLine(Res1);
+            Console.WriteLine(Res2);
             Console.ReadKey();
         }
     }
