@@ -6,7 +6,7 @@
         {
             bool Inv = true;
             bool Res1 = !Inv;
-            bool Res2 = !Res1;
+            bool Res2 = Res1;
             
             Console.WriteLine(Res1);
             Console.WriteLine(Res2);
